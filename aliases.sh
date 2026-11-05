@@ -99,7 +99,7 @@ alias oomwatch='sudo dmesg -Tw | grep --line-buffered -iE "oom|memory"'
 # Reload shell configuration on the fly
 ##alias reload='source ~/.bashrc && echo "Shell profile reloaded successfully."'
 ------------------------------------------------------------------------------
-# 6. LIVE INTERVIEW & TRIAGE ACCELERATORS
+# 6. TRIAGE ACCELERATORS
 # ------------------------------------------------------------------------------
 # Top 10 largest directories on root (quick disk usage inspection)
 alias dudepth='sudo du -hx --max-depth=1 / 2>/dev/null | sort -rh | head -n 11'
